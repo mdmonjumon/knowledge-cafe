@@ -1,50 +1,50 @@
 [
     {
       "id": 1,
-      "cover": "https://i.ibb.co.com/ZRZvZJ6B/thought-catalog-505eect-W54k-unsplash.jpg",
+      "cover": "https://i.ibb.co.com/HDF4QNTN/joanna-kosinska-1-CMo-Fs-Pfso-unsplash-1.jpg",
       "title": "Whispers in the Dark",
       "author": "Amelia Carter",
-      "author_img": "https://i.ibb.co.com/bg16d64S/profile-fb-1494525775-599b6243ecd1.jpg",
+      "author_img": "https://i.ibb.co.com/tphSVNpm/smart-looking-teacher-1.jpg",
       "posted_date": "January 15, 2025",
       "reading_time": 13,
       "hashtags": ["#Thriller", "#Mystery", "#Suspense"]
     },
     {
       "id": 2,
-      "cover": "https://i.ibb.co.com/PZgVNwLh/patrick-tomasso-Oaqk7qq-Nh-c-unsplash.jpg",
+      "cover": "https://i.ibb.co.com/nNZ1ypHj/patrick-tomasso-Oaqk7qq-Nh-c-unsplash-1.jpg",
       "title": "The Lost Horizon",
       "author": "Benjamin Grant",
-      "author_img": "https://i.ibb.co.com/MkmNbHsV/medium-shot-man-holding-notebook.jpg",
+      "author_img": "https://i.ibb.co.com/8LBj5HGN/profile-fb-1494525775-599b6243ecd1.jpg",
       "posted_date": "February 3, 2025",
       "reading_time": 10,
       "hashtags": ["#Adventure", "#Fantasy", "#Journey"]
     },
     {
       "id": 3,
-      "cover": "https://i.ibb.co.com/pBRVm5NS/henry-be-Iicyia-PYGGI-unsplash.jpg",
+      "cover": "https://i.ibb.co.com/KxrvppSz/thought-catalog-505eect-W54k-unsplash-1.jpg",
       "title": "Digital Dreams",
       "author": "Jessica Moore",
-      "author_img": "https://i.ibb.co.com/15KQVZg/indoor-picture-serious-young-woman-stylish-blouse-resting-hands-wooden-table-having-cappuccino-coffe.jpg",
+      "author_img": "https://i.ibb.co.com/8LBj5HGN/profile-fb-1494525775-599b6243ecd1.jpg",
       "posted_date": "January 25, 2025",
       "reading_time": 15,
       "hashtags": ["#SciFi", "#Technology", "#Innovation"]
     },
     {
       "id": 4,
-      "cover": "https://i.ibb.co.com/mVz39MHB/joanna-kosinska-1-CMo-Fs-Pfso-unsplash.jpg",
+      "cover": "https://i.ibb.co.com/KpJpvdf7/henry-be-Iicyia-PYGGI-unsplash.jpg",
       "title": "The Moonlit Garden",
       "author": "Samuel Harris",
-      "author_img": "https://i.ibb.co.com/1tdnKTMY/smart-looking-teacher.jpg",
+      "author_img": "https://i.ibb.co.com/sXhBbN2/indoor-picture-serious-young-woman-stylish-blouse-resting-hands-wooden-table-having-cappuccino-coffe.jpg",
       "posted_date": "February 1, 2025",
       "reading_time": 17,
       "hashtags": ["#Romance", "#Nature", "#Drama"]
     },
     {
       "id": 5,
-      "cover": "https://i.ibb.co.com/23D6mXr6/unseen-studio-s9-CC2-SKy-SJM-unsplash.jpg",
+      "cover": "https://i.ibb.co.com/KpJpvdf7/henry-be-Iicyia-PYGGI-unsplash.jpg",
       "title": "Echoes of Eternity",
       "author": "Clara Bennett",
-      "author_img": "https://i.ibb.co.com/15KQVZg/indoor-picture-serious-young-woman-stylish-blouse-resting-hands-wooden-table-having-cappuccino-coffe.jpg",
+      "author_img": "https://i.ibb.co.com/dwzyYWZM/medium-shot-man-holding-notebook-1.jpg",
       "posted_date": "February 7, 2025",
       "reading_time": 16,
       "hashtags": ["#HistoricalFiction", "#Legacy", "#Mystery"]
