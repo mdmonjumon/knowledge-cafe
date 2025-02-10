@@ -1,8 +1,8 @@
 import PropTypes from 'prop-types';
-import bookmarkImage from '../../assets/images/bookmark.png'
+import { FaRegBookmark } from "react-icons/fa6";
 
-const Blog = ({ blog }) => {
-    console.log(blog)
+const Blog = ({ blog, handleAddToBookmark, handleAddReadingTime }) => {
+
     const { title, cover, author_img, author, posted_date, reading_time, hashtags } = blog;
     return (
         <div>
@@ -21,16 +21,20 @@ const Blog = ({ blog }) => {
                     </div>
                     <div className='flex items-center gap-2'>
                         <span className='font-medium text-xl text-[#11111199]'> {reading_time} min read</span>
-                        <button><img src={bookmarkImage} alt="" /></button>
+                        <button onClick={() => handleAddToBookmark(blog)} className='hover:cursor-pointer hover:text-xl text-[#11111199]'><FaRegBookmark></FaRegBookmark></button>
                     </div>
                 </div>
 
-                <h3 className='text-2xl md:text-4xl font-bold'>Title : {title}  </h3>
+                <h3 className='text-2xl md:text-4xl font-bold'>{title}  </h3>
                 <p> {
                     hashtags.map((hashtag, i) => <span className='mr-2 font-medium text-xl text-[#11111199]' key={i}> {hashtag} </span>)
                 }
                 </p>
-                <a className='text-[#6047EC] underline text-xl font-medium' href="">Mark as read</a>
+                <button 
+                className='text-xl font-semibold underline text-[#6047EC]'
+                onClick={() => handleAddReadingTime(reading_time)}>
+                Mark as read
+                </button>
 
             </div>
 
@@ -40,6 +44,8 @@ const Blog = ({ blog }) => {
 
 
 Blog.propTypes = {
-    blog: PropTypes.array.isRequired
+    blog: PropTypes.array.isRequired,
+    handleAddToBookmark: PropTypes.func.isRequired,
+    handleAddReadingTime: PropTypes.func.isRequired
 }
 export default Blog;
