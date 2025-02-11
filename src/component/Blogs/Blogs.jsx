@@ -18,11 +18,11 @@ const Blogs = ({ handleAddToBookmark, handleAddReadingTime }) => {
     return (
         <div className="md:w-2/3">
             {
-                blogs.map(blog => <Blog
+                blogs.map((blog, i) => <Blog
                     handleAddReadingTime={handleAddReadingTime}
                     handleAddToBookmark={handleAddToBookmark}
                     blog={blog}
-                    key={blog.id}
+                    key={i}
                 ></Blog>)
             }
 
