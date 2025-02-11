@@ -1,7 +1,6 @@
 import PropTypes from "prop-types";
 
 const Bookmark = ({bookmark}) => {
-    console.log(bookmark)
     return (
         <div className="p-5 bg-[#FFFFFF] rounded-lg">
             <h2 className="text-lg font-semibold"> {bookmark.title} </h2>
